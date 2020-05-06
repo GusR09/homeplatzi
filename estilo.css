@@ -1,0 +1,61 @@
+.header
+{
+	background-color: #1e5372;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	align-items: center;
+	font-family: Lato,sans-serif;
+	font-size: 16px;
+}
+
+.header a
+{
+	color:white;
+	text-decoration: none;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	padding:0 10px;
+}
+
+.header ol
+{
+	display: flex;
+	height: inherit;
+}
+
+.header ol li
+{
+	height: inherit;
+}
+.menu
+{
+	height: inherit;
+}
+
+ol,
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+figure
+{
+	margin: 0;
+}
+.container
+{
+	border: 1px solid red;
+	width: 1000px;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit
+}
+    
