@@ -22,6 +22,7 @@ body
     width: 100%;
     height: 52px;
 }
+
 .header a
 {
 	color:white;
@@ -116,31 +117,20 @@ padding-right: 12px;
     padding: 8px .8em 6px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .hero
 {
-	background-position: 50%;
+	background: url(https://static.platzi.com/mf-landings/image/bg_hero-833887b….png),-webkit-linear-gradient(0deg,#1c3643,#273b47 25%,#1e5372);
+	background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     color: #fff;
-    padding: 1em;
-    background: url(https://static.platzi.com/mf-landings/image/bg_hero-833887b….png),linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
 }
 .herocontainer
 {
 	grid-template-columns: minmax(auto,1024px);
     display: grid;
     justify-content: center;
+    width: 100%;
 }
 
 .herocontenido
@@ -148,15 +138,18 @@ padding-right: 12px;
 	width: 100%;
 }
 
-
-
 .titulo
 {
-	width: 80%;
-	font-size: 24px;
-    line-height: 1.25;
-    font-weight: 400;
-    font-family: cooper_hewittmedium;
+	
+}
+
+.titulo h1
+{
+	margin: .67em 0;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 1.25;
+	display: block;
 }
 
 .info
@@ -172,16 +165,19 @@ padding-right: 12px;
     font-weight: 700;
     margin-right: 16px;
  }
+ 
  .info span:last-of-type 
  {
     margin-top: 6px;
   }
+ 
  .info span
  {
  display: -webkit-inline-box;
  font-size: 16px;
 
  }
+
 .info span i
 {
 	font-size: 30px;
@@ -202,13 +198,18 @@ padding-right: 12px;
     top: -20px;
  }
 
- .accion a
+ .accion
+ {
+ 	width: 245px;
+    margin: .5em 0 0;
+ }
+
+ .accion button
  {
  	text-align: center;
     display: block;
     width: 100%;
     margin-bottom: 16px;
-    padding: 12px 0;
     font-weight: 700;
     font-size: 14px;
  }
@@ -218,66 +219,404 @@ padding-right: 12px;
  	background: linear-gradient(270deg,#95ca3e 0,#95ca3e 50%,#85c638);
  	border: none;
     border-radius: 3px;
-    box-sizing: border-box;
     color: white;
-    cursor: pointer;
-    font-family: Lato,sans-serif;
-    text-decoration: none;
-    user-select: none;
-    transition: .2s;
-    vertical-align: middle;
-    white-space: nowrap;
-    overflow: hidden;
-    outline: 0;
  }
 
  .boton1c
  {
  	position: relative;
+ 	bottom: 0;
+    background: transparent;
+    border: 1px solid #fff;
+    height: 32px;
+    padding: 0;
  }
 
  .heroimagen2
  {
- 	display: -webkit-inline-box;
+ 	display: flex;
  	-webkit-box-pack: center;
  	justify-content: center;
-    margin-top: .5em;
+ 	margin-top: .5em;
     z-index: 5;
-    
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-    margin-bottom: -20px;
-    width: 150px;
  }
 
- 
+ .heroimagen2 img
+ {
+ 	margin-bottom: -20px;
+ 	width: 150px;
+ }
 
+ .Diagonal svg
+ {
+    margin-top: -45px;
+    height: 45px;
+    margin-top: -55px;
+    height: 55px;
+    display: block;
+    width: 100%;
+    background: transparent;
+}
 
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-
-
-
-.MiniSearch
+.empresa
 {
-
-font-family: Lato, sans-serif;
+	padding: 1.5em 1em .5em;
+	text-align: center;
 
 }
-*/
+
+.empresacontainer
+{
+	display: grid;
+   -webkit-box-pack: center;
+   justify-content: center;
+}
+
+.empresacontainer span
+{
+	width: 54%;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.21;
+}
+
+.empresawave
+{
+	background: url(https://static.platzi.com/mf-landings/image/wave-baf77367a105e5260c86478b6556f575.png) 50%;
+	height: 12px;
+    background-repeat: no-repeat;
+    background-size: 96px;
+    margin-bottom: 1.5em;
+}
+
+.search
+{
+	padding: 1em 1em 0;
+    position: relative;
+    color: #606164;
+    grid-template-columns: minmax(auto,1024px);
+    display: grid;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.searchcontenido
+{
+	grid-template-columns: minmax(auto,1024px);
+    display: grid;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    font-size: 14px;
+    padding: 1.3em 1.3em 1.3em 2.4em;
+    height: 48px;
+    width: 100%;
+    position: relative;
+}
+
+.searchtitulo
+{
+	text-align: center;
+    margin-bottom: 16px;
+}
 
 
+.categorias
+{
+	    padding: 1.5em 1em;
+}
 
+.categoriascontainer
+{
+	grid-template-columns: minmax(auto,1024px);
+    display: grid;
+    -webkit-box-pack: center;
+	justify-content: center;
+}
+
+.categoriaitems
+{
+	display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    grid-row-gap: .5em;
+    grid-auto-rows: 1fr;
+}
+.categoria
+{
+	display: grid;
+    grid-template-columns: 64px auto;
+    border-radius: 6px;
+    position: relative;
+    transition: .2s;
+    cursor: pointer;
+    z-index: 0;
+    height: 100%;
+}
+
+.categoriaimagen
+{
+	
+    border-radius: 6px 0 0 6px;
+    display: flex;
+    -webkit-box-pack: center;
+    align-items: center;
+}
+
+.categoriaimagen img
+{
+	width: 32px;
+}
+
+.categoriadetalle
+{
+	padding: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    align-self: center;
+    background-color: #f3f8fb;
+}
+
+.catgoriadetalle h2
+{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.categoriadetalle span
+{
+	font-size: 12px;
+    font-weight: 500;
+}
+
+.categoriaitems
+ {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    grid-row-gap: .5em;
+}
+
+
+.nuevoscursos
+{
+	
+	padding: 1em;
+    
+}
+
+.ncursoscontainer
+{
+	grid-template-columns: minmax(auto,936px);
+	display: grid;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #f3f8fb;
+}
+
+.ncursostitulo h2
+{
+	font-size: 26px;
+	font-weight: 700;
+    text-align: center;
+    font-family: cooper_hewittmedium;
+}
+
+.ncursoscontenido
+{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    padding: 2em 0 0;
+}
+
+.contenido2
+{
+	display: block;
+}
+
+.ncursosvideo
+{
+	border-radius: 4px;
+	box-shadow: 0 2px 14px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+    margin-bottom: 16px;
+    display: grid;
+}
+
+.videoiframe
+{
+	min-height: 156px;
+    margin-bottom: 16px;
+}
+
+.videoiframe iframe
+{
+	height: 156px;
+	border-radius: 4px;
+    width: 100%;
+}
+
+.videoitems
+{
+	display: flex;
+    grid-template-columns: 24px auto;
+    grid-gap: .5em;
+    margin-bottom: 10px;
+    padding: 16px 20px 8px;
+    position: relative;
+    cursor: pointer;
+ }
+
+.videoitems a
+{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.itemscontenidovideo
+{
+	margin-top: 5px;
+}
+
+.itemscontenidovideo h3
+{
+	font-size: 12px;
+    font-weight: 700;
+}
+
+.itemscontenidovideo span
+{
+	font-size: 12px;
+    font-weight: 400;
+}
+
+.itemsimagenvideo img
+{
+	width: 24px;
+    height: 24px;
+   
+}
+
+.ncursositems
+{
+	display: flex;
+    grid-template-columns: 24px auto;
+    grid-gap: 1em;
+    margin-bottom: 1em;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.itemsimagen img
+{
+	width: 24px;
+    height: 24px;
+}
+
+.itemscontenido
+{
+	display: flex;
+    -webkit-box-pack: justify;
+    display: flex;
+    -webkit-box-pack: justify;
+    align-items: center;
+}
+
+.itemscontenido h3
+{
+	font-size: 14px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.proximasclases
+{
+	padding: 0 1em 1em;
+    background-color: #f3f8fb;
+}
+
+.pclasescontainer
+{
+	grid-template-columns: minmax(auto,1024px);
+    display: grid;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.pclasescontainer h2
+{
+	font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    font-family: cooper_hewittmedium;
+    margin-bottom: 16px;
+}
+
+.pclasesitems
+{
+	display: flex;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    grid-row-gap: .5em;
+}
+
+.pclasesitem
+{
+	background-color: #fff;
+    border-radius: 4px;
+	box-shadow: 0 2px 14px 0 rgba(0,0,0,.1);
+	padding: 8px 16px;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #4a4a4a;
+    margin: 0 14px 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.pcitemsimagen
+{
+	display: grid;
+    grid-template-columns: 24px auto;
+    grid-gap: .5em;
+    margin-bottom: 8px;
+}
+
+.pcitemslanzamiento
+{
+	display: flex;
+}
+
+.pcitemsimagen img
+{
+	width: 24px;
+}
+
+.pcitemsimagen h4
+{
+	font-size: 14px;
+    font-weight: 700;
+    color: #273b47;
+    align-self: center;
+}
+
+.pcitemslanzamiento i
+{
+	font-size: 14px;
+    margin: 0 10px 0 6px;
+    color: #98ca3f;
+}
+
+.pcitemslanzamiento span
+{
+	font-size: 12px;
+}
