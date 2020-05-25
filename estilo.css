@@ -90,6 +90,11 @@ padding-right: 12px;
     padding: 5px 12px 5px 5px;
 }
 
+.planes
+{
+	cursor: pointer;
+}
+
 .iniciarsecion
 {
 	background: linear-gradient(270deg,#95ca3e 0,#95ca3e 50%,#85c638);
@@ -138,10 +143,7 @@ padding-right: 12px;
 	width: 100%;
 }
 
-.titulo
-{
-	
-}
+
 
 .titulo h1
 {
@@ -325,7 +327,7 @@ padding-right: 12px;
 
 .categorias
 {
-	    padding: 1.5em 1em;
+	   padding: 1.5em 1em;
 }
 
 .categoriascontainer
@@ -350,9 +352,7 @@ padding-right: 12px;
     grid-template-columns: 64px auto;
     border-radius: 6px;
     position: relative;
-    transition: .2s;
     cursor: pointer;
-    z-index: 0;
     height: 100%;
 }
 
@@ -367,7 +367,7 @@ padding-right: 12px;
 
 .categoriaimagen img
 {
-	width: 32px;
+	width: 57px;
 }
 
 .categoriadetalle
@@ -379,10 +379,9 @@ padding-right: 12px;
     background-color: #f3f8fb;
 }
 
-.catgoriadetalle h2
+.categoriadetalle h2
 {
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 12px;
 }
 
 .categoriadetalle span
@@ -453,7 +452,7 @@ padding-right: 12px;
 
 .videoiframe iframe
 {
-	height: 156px;
+	height: 220px;
 	border-radius: 4px;
     width: 100%;
 }
@@ -619,4 +618,514 @@ padding-right: 12px;
 .pcitemslanzamiento span
 {
 	font-size: 12px;
+}
+
+.sifunciona
+{
+	background-color: #1c3643;
+    padding: 1.5em 1em 0;
+    color: #fff;
+}
+
+.sfcontainer
+{
+	grid-template-columns: minmax(auto,1024px);
+    display: grid;
+    -webkit-box-pack: center;
+	justify-content: center;
+}
+
+.sftitulo
+{
+	color: #98ca3f;
+    text-align: center;
+}
+
+.sftitulo h2
+{
+	font-size: 26px;
+    font-family: cooper_hewittmedium;
+    font-weight: 700;
+}
+
+.sfitems1
+{
+	display: grid;
+    margin: 1em 0;
+    grid-template-columns: auto 200px;
+    grid-template-areas: "step figure";
+}
+
+.sfitems2
+{
+	display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas: "figure step";
+    margin: 1em 0;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.sfitemscontenido
+{
+	grid-area: initial;
+
+}
+
+.sfitemscontenido h3
+{
+	font-size: 20px;
+    font-weight: 600;
+    font-family: cooper_hewittmedium;
+}
+
+.sfitemscontenido span
+{
+	font-size: 16px;
+    font-family: Lato,sans-serif;
+}
+
+.sfitemsfigura
+{
+	grid-area: figure;
+}
+
+.sfitemsfigura img
+{
+	width: 100%;
+}
+
+.historias
+{
+	padding: 1.5em 1em;
+}
+
+.hcontainer
+{
+	grid-template-columns: minmax(auto,1024px);
+    display: grid;
+    -webkit-box-pack: center;
+	justify-content: center;
+}
+
+.holitas
+{
+	background: url(https://static.platzi.com/mf-landings/image/wave-baf77367a105e5260c86478b6556f575.png) 50%;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-size: 96px;
+    margin-bottom: 1.5em;
+}
+
+.htitulo
+{
+	text-align: center;
+    margin-bottom: 16px;
+}
+
+.htitulo h2
+{
+	font-family: cooper_hewittmedium;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.hestrategia
+{
+	text-align: center;
+    padding: 1em 0 0;
+}
+
+.hestrategia h3
+{
+	font-size: 14px;
+    color: #4a4a4a;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.hlista
+{
+	align-items: flex-end;
+	-webkit-box-align: end;
+	display: inline-flex;
+}
+
+.hlistacard
+{
+	margin-bottom: 16px;
+	padding: 10px;
+}
+
+.cardtexto
+{
+	font-style: italic;
+    border-radius: 4px;
+    padding: 16px 20px;
+    position: relative;
+    background: #f3f8fb;
+    margin: .5em 0;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.cardperfil
+{
+	align-items: center;
+    padding: 1em .5em 0;
+    display: flex;
+    -webkit-box-align: center;
+}
+
+.perfilimagen
+{
+	position: relative;
+    margin: 0 1em 0 0;
+}
+
+.imgavatar
+{
+	width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.imgbandera
+{
+	width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 26px;
+}
+
+.perfilusername a
+{
+	color: #0791e6;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.perfilusername h4
+{
+	font-size: 14px;
+    color: #4a4a4a;
+}
+
+.comienzaahora
+{
+	padding: 0 1em 1em;
+}
+
+.cacontainer
+{
+	grid-template-columns: minmax(auto,1024px);
+    display: grid;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.catitulo
+{
+	margin-bottom: 14px;
+}
+
+.catitulo h2
+{
+	font-size: 30px;
+    font-weight: 200;
+    color: #273b47;
+    font-family: cooper_hewittmedium;
+}
+
+.caaccion
+{
+	text-align: center;
+}
+
+.botonver
+{
+	display: block;
+    text-align: center;
+    padding: 12px;
+    font-weight: 700;
+    color: #fff;
+   background: -webkit-linear-gradient(right,#95ca3e,#95ca3e 50%,#85c638);
+}
+
+.caaccion a
+{
+	text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.fcontainerup
+{
+	background: #1c3643;
+    padding-top: 1em;
+
+}
+
+.fcupcontenido
+{
+	justify-content: center;
+	flex-wrap: wrap;
+    -webkit-box-pack: center;
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.fcupclogo
+{
+	margin-bottom: 0;
+    display: block;
+    grid-column: 1/3;
+    grid-row-start: 1;
+    max-width: 368px;
+
+}
+
+.flogoseccion img
+{
+	margin: 0 0 5px -15px;
+    width: 150px;
+}
+
+.flogoseccion p
+{
+	color: #fff;
+    margin: 0 .5em 1em;
+    text-align: center;
+}
+
+.fcupcsocial
+{
+	grid-column: 1/3;
+    grid-row-start: 2;
+    color: #fff;
+    max-width: 170px;
+    display: block;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 1em;
+}
+
+.fcupcsocial span
+{
+	padding: 1em 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.SocialItem
+{
+	color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.SocialItem span
+{
+	font-size: 20px;
+}
+
+.fcupccategorias
+{
+	grid-column: 3/5;
+    grid-row: 1/3;
+    padding: .5em 1.5em;
+    margin: .5em -1em;
+    box-sizing: border-box;
+}
+
+.fcupccategorias .Category
+{
+	margin: 1em 0;
+    padding-left: .5em;
+    font-size: 14px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.fcupccategorias .Category a
+{
+	width: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Arrow 
+{
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-left-color: #fff;
+}
+
+.fcupccertificados
+{
+	grid-column: 5/7;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-content: baseline;
+}
+
+.fcupccertificados span
+{
+	    width: 100%;
+    padding-bottom: 1em;
+    font-size: 14px;
+    text-align: center;
+}
+
+.fcupccertificados .certifier 
+{
+    padding-right: 1em;
+}
+
+.certifier-link 
+{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fcupccertificados img 
+{
+    height: 29px;
+}
+
+.fcupcpremios
+{
+	grid-column: 5/7;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: baseline;
+}
+
+.fcupcpremios span
+{
+	width: 100%;
+    padding-bottom: 1em;
+    font-size: 14px;
+    text-align: center;
+}
+
+.Award 
+{
+    padding: .5em;
+    position: relative;
+}
+
+.fcupcpremios .Award 
+{
+    padding-right: 1em;
+}
+
+.Award-link 
+{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Award img 
+{
+    height: 29px;
+}
+
+.fcontainermid
+{
+	background: linear-gradient(90deg,#1c3643,#273b47 50%,#1e5372);
+    height: auto;
+}
+
+.fcmidsuscribete
+{
+	color: #fff;	
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+}
+
+.fcmidtexto
+{
+	width: auto;
+    padding: 0 2em 0 0;
+    text-align: left;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.fcmidboton
+{
+	display: flex;
+    -webkit-box-align: center;
+    font-size: 14px;
+    margin: 1em 1em;
+}
+
+
+.inputfield
+{
+	background: transparent;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #0a8ecd;
+    font-size: 14px;
+    padding: 15px 10px;
+}
+
+.inpulabel
+{
+	color: #0a8ecd;
+}
+
+.botonsuscribete
+{
+	-webkit-flex-shrink: 0;
+	margin-bottom: 25px;
+	height: 50px;
+    border-radius: 0 3px 3px 0;
+    background: #0a8ecd;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: Lato,sans-serif;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.botonsuscribete span
+{
+	padding: 0 4em;
+	font-size: 14px;
 }
