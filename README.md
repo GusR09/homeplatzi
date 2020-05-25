@@ -1,4 +1,4 @@
-# homeplatzi :tw-1f308:
+# homeplatzi  :fa-hand-o-right:
 > ## # Homeplatzi copia 
 > #### Hice Esta Copia De La Pagina Principal De Platzi Para Reforzar Lo Que E Aprendido En Platzi.Com
 
